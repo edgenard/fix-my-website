@@ -49,7 +49,7 @@ header ul li a:hover {
 
 
 .homepage {
-  background-image:url("/images/free-birds.jpg"), linear-gradient(to bottom, #9B9B93, #C1B098);
+  background-image:url("/images/code-work.jpeg"), linear-gradient(to bottom, #9B9B93, #C1B098);
   background-size: cover;
   min-height: 100vh;
   display: flex;
