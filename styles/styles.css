@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Gill Sans", sans-serif;
   background-color: #fffff8;
@@ -50,11 +53,26 @@ header ul li a:hover {
 
 .homepage {
   background-image:url("/images/code-work.jpeg"), linear-gradient(to bottom, #9B9B93, #C1B098);
-  background-size: cover;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   font-size: 36px;
   justify-content: center;
   align-items: center;
   color: ivory;
+}
+.about-me {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.about-me h2 {
+  flex-basis: 100%;
+}
+
+.about-me figure, .about-me p {
+
+  flex-basis: 45%;
 }
