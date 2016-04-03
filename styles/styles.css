@@ -1,0 +1,60 @@
+body {
+  font-family: "Gill Sans", sans-serif;
+  background-color: #fffff8;
+  color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+body > * {
+  flex-basis: 100%;
+}
+
+header, footer {
+  background-color: #111;
+  color: #C1B098;
+}
+
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+header ul  {
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  padding: 0;
+}
+
+header ul li {
+  margin: 0 10px;
+  font-size: 22px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header ul li a:hover {
+  background-color: #C1B098;
+  color: #111;
+}
+
+
+.homepage {
+  background-image:url("/images/free-birds.jpg"), linear-gradient(to bottom, #9B9B93, #C1B098);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  font-size: 36px;
+  justify-content: center;
+  align-items: center;
+  color: ivory;
+}
