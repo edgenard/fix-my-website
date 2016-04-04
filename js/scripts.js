@@ -29,7 +29,7 @@ $().ready(function () {
   })
 
 
-  
+  //TODO: Write code here to make images on favorites page fade in and out when hovered over
 
 
 
