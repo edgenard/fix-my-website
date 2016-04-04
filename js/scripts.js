@@ -3,23 +3,23 @@ $().ready(function () {
   // The following code is to show the person who said the
   // quote.
 
-  //There is a mistake here because it  is only showing the
+  //There is a mistake here because it  is only showing the first image no matter which button is clicked. HELP!
 
   var alanKayImg = "<figure class='quote-image'> <img src='/images/alanKay.jpg' > <figcaption> Alan Kay </figcaption> </figure>"
 
 
 
-  // $(".quote button").click(function(){
-  //   $(this).after(alanKayImg)
-  //   $(this).remove()
-  // })
+  $(".quote button").click(function(){
+    $(this).after(alanKayImg)
+    $(this).remove()
+  })
 
    var kahlilGibranImg = "<figure class='quote-image'> <img src='/images/kahlil-gibran.jpg' > <figcaption> Kahlil Gibran</figcaption> </figure>"
 
-  // $(".quote button").click(function () {
-  //   $(this).after(kahlilGibranImg)
-  //   $(this).remove()
-  // })
+  $(".quote button").click(function () {
+    $(this).after(kahlilGibranImg)
+    $(this).remove()
+  })
 
   var mlkImage = "<figure class='quote-image'> <img src='/images/mlk.jpg' > <figcaption>Martin Luther King Jr.</figcaption> </figure>"
 
