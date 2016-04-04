@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Emmanuel Genard</title>
-  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="/styles/styles.css">
 
 </head>
 <body>
@@ -13,18 +13,31 @@
       <ul>
         <li><a href="pages/about-me.html">About</a></li>
         <li><a href="pages/quotes.html">Quotes</a></li>
-        <li><a href="pages/projects.html">Projects</a></li>
+        <li><a href="pages/favorites.html">Favorites</a></li>
       </ul>
     </nav>
   </header>
 
 
-  <main>
-    <figure><img src="" alt=""></figure>
-    <section>
-      <p>
-        Quote
-      </p>
+  <main class="quotes">
+    <section class="quote">
+      <blockquote>
+        The computer revolution hasn't happened yet
+      </blockquote>
+      <button id="first-quote"> Who said it?</button>
+    </section>
+
+    <section class="quote">
+      <blockquote>
+        Your pain is the breaking of the shell that encloses your understanding.
+      </blockquote>
+      <button id="second-quote"> Who said it?</button>
+    </section>
+    <section class="quote">
+      <blockquote>
+        The function of education is to teach one to think intensively and to think critically. Intelligence plus character - that is the goal of true education.
+      </blockquote>
+      <button id="third-quote"> Who said it?</button>
     </section>
   </main>
 
@@ -32,6 +45,7 @@
     <p>The broken website of Emmanuel Genard</p>
   </footer>
 
-
+  <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+  <script src="/js/scripts.js"></script>
 </body>
 </html>

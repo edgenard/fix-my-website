@@ -76,3 +76,61 @@ header ul li a:hover {
 
   flex-basis: 45%;
 }
+
+.quotes {
+  display: flex;
+  flex-flow: column;
+}
+
+.quote {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.quote blockquote {
+  max-width: 50%;
+}
+
+.quote-image {
+  display: block;
+  width: 200px;
+}
+
+.quote-image img {
+  max-width: 100%;
+}
+
+
+.favorites {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.article {
+  max-width: 80%;
+}
+
+.images h2 {
+  flex-basis: 100%;
+  text-align:center;
+}
+
+.images{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.images figure {
+  max-width: 40%;
+
+}
+
+figure img {
+  max-width: 100%;
+}
