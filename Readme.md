@@ -52,3 +52,10 @@ Resources:
 [These event puzzles would probably help you get the hang of using events in JQuery,](https://jsfiddle.net/errantwriter/ecw8y976/) ,  [these exercises will help you get the hang of writing your own call back functions](https://jsfiddle.net/errantwriter/jvcoLdbt/)and in case you forgot [here is a review of how to write a function.](https://docs.google.com/presentation/d/112WsbL1uoypRag7QeKyRsuRXCWVmTP7MI3EapvFTaao/edit#slide=id.g10ef4dbb92_0_47)
 
 [This is the JQuery page on mouse event listeners. Which one do you think would work for this?](https://api.jquery.com/category/events/mouse-events/)
+
+### Finished
+```
+git add --all
+git commit -m "Finished Fixing website"
+git push
+```
